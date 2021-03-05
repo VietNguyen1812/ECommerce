@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <meta charset="UTF-8" />
+  
+  <meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 
+OneTel Template
+http://www.templatemo.com/tm-468-onetel
+-->
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/nivo-lightbox.css">
+  <link rel="stylesheet" href="/css/templatemo-style.css">
+	<link rel="stylesheet" href="/css/nivo_themes/default/default.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+  
+<style>
+ .containerz {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 175px;
+    text-align: center;
+  }
+  .containerz h1 {
+    font-size: 40px;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-put;
+            transition-timing-function: ease-in-put;
+    font-weight: 200;
+  }
+.responstable {
+  margin: 1em 0;
+  width: 100%;
+  overflow: hidden;
+  background: #FFF;
+  color: #024457;
+  border-radius: 10px;
+  border: 1px solid #167F92;
+}
+.responstable tr {
+  border: 1px solid #D9E4E6;
+}
+.responstable tr:nth-child(odd) {
+  background-color: #EAF3F3;
+}
+.responstable th {
+  display: none;
+  border: 1px solid #FFF;
+  background-color: #167F92;
+  color: #FFF;
+  padding: 1em;
+}
+.responstable th:first-child {
+  display: table-cell;
+  text-align: center;
+}
+.responstable th:nth-child(2) {
+  display: table-cell;
+}
+.responstable th:nth-child(2) span {
+  display: none;
+}
+.responstable th:nth-child(2):after {
+  content: attr(data-th);
+}
+@media (min-width: 480px) {
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2):after {
+    display: none;
+  }
+}
+.responstable td {
+  display: block;
+  word-wrap: break-word;
+  max-width: 7em;
+}
+.responstable td:first-child {
+  display: table-cell;
+  text-align: center;
+  border-right: 1px solid #D9E4E6;
+}
+@media (min-width: 480px) {
+  .responstable td {
+    border: 1px solid #D9E4E6;
+  }
+}
+.responstable th, .responstable td {
+  text-align: left;
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .responstable th, .responstable td {
+    display: table-cell;
+    padding: 1em;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Arial, sans-serif;
+  color: #024457;
+  background: #f2f2f2;
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  color: #024457;
+}
+h1 span {
+  color: #167F92;
+}
+.btn-infoo {
+    color: #fff;
+    background-color: #33b5e5 !important;
+}
+
+</style>
+</head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.js" data-modules="effect effect-bounce effect-blind effect-bounce effect-clip effect-drop effect-fold effect-slide"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+<body>
+  <div class="containerz">
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><img src="/images/logo.png" class="img-responsive" alt="logo"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/">TRANG CHỦ</a></li>
+				<li><a href="/about" class="active">THÀNH VIÊN NHÓM </a></li>
+			</ul>
+		</div>
+	</div>
+</div>	
+<div class="container-fluid">
+  <h1 class="display-4 my-4 text-info">LỊCH SỬ GIAO DỊCH KHÁCH HÀNG</h1> 
+
+  <table class="responstable h4 mb-0 text-gray-800" style="width: 100%;" data-toggle="table" data-pagination="true" data-size="normal" data-search="true" >
+    <thead >
+      <tr>
+        <th data-sortable="true">ID gói lãi suất</th>
+        <th data-sortable="true">Customer ID</th>
+        <th data-sortable="true" >Số tiền gửi</th>
+        <th data-sortable="true">Tiền lãi</th>
+        <th data-sortable="true">Ngày gửi</th>
+        <th data-sortable="true">Ngày rút</th>
+        <th data-sortable="true">Số tiền rút</th>
+        <th data-sortable="true">Đã giao dịch</th>
+        <th></th>
+      </tr>
+    </thead>
+      <tbody>
+        <% lichsugiaodich.rows.forEach(function(lsgd){ %>
+          <tr>
+            <td><%= lsgd.idp %></th>
+            <td><%= lsgd.customerid %></th>   
+            <td><%= lsgd.sotien %></th>
+            <td><%= lsgd.tienlai %></th>
+            <td><%= lsgd.ngaygui %></th>
+            <td><%= lsgd.ngayrut %></th>
+            <td><%= lsgd.sotienrut %></th>
+            <td><%= lsgd.ischeck %></th>
+            <% if(ischeck==true){ %> 
+          <td>          
+            <a href="http://localhost:3000/categories/chtien/<%= lsgd.id %>">Rút tiền</a>
+          </td>
+          <% } %> 
+        </tr>
+          <% }); %>
+      </tbody>
+
+  </table>
+  <a class="btn btn-infoo" href="/users/paymentID">Thêm API</a>
+  
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+</html>	
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+D:\TinhLaiNganHang\TinhLaiNganHang\bin\Debug\TinhLaiNganHang.exe.config
+D:\TinhLaiNganHang\TinhLaiNganHang\bin\Debug\TinhLaiNganHang.exe
+D:\TinhLaiNganHang\TinhLaiNganHang\bin\Debug\TinhLaiNganHang.pdb
+D:\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.Form1.resources
+D:\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.Properties.Resources.resources
+D:\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.csproj.GenerateResource.cache
+D:\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.exe
+D:\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.pdb
+D:\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.csprojAssemblyReference.cache
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\bin\Debug\TinhLaiNganHang.exe.config
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\bin\Debug\TinhLaiNganHang.exe
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\bin\Debug\TinhLaiNganHang.pdb
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.csprojAssemblyReference.cache
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.Form1.resources
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.Properties.Resources.resources
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.csproj.GenerateResource.cache
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.csproj.CoreCompileInputs.cache
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.exe
+C:\Users\Phuoc Toan\Desktop\UTE-EC2002-05\Project E-Banking\Exam_E\E1\TinhLaiNganHang\TinhLaiNganHang\obj\Debug\TinhLaiNganHang.pdb
